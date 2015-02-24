@@ -19,16 +19,41 @@ a {
 
 img {
 	max-width: 100%;
+}
 
+h3 {
+	margin: 0 0 1em 0;
 }
 
 /****************************************
 HEADING
 *****************************************/
 
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
 #logo {
 	text-align: center;
 	margin: 0;
+}
+
+h1 {
+	font-family: 'Muli', sans-serif;
+	margin: 15px 0;
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 0.8em
+}
+
+h2 {
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	margin:  -5px 0 0;
+	font-weight: normal;
 }
 
 /****************************************
@@ -41,6 +66,21 @@ nav {
 	margin: 20px 0 0;
 }
 
+nav ul {
+	list-style: none;
+	marign: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
 /****************************************
 FOOTER
 *****************************************/
@@ -51,6 +91,12 @@ footer {
 	clear: both;
 	padding-top: 50px;
 	color: #ccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
 
 /****************************************
@@ -78,6 +124,47 @@ Page : PORTFOLIO
 	color: #bdc3c7;
 }
 
+/****************************************
+Page : ABOUT
+*****************************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 50px;
+}
+
+/****************************************
+Page : CONTACT
+*****************************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+.contact-info a {
+	display: block;
+	min-height: 30px;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	padding: 0 0 0 35px;*/
+	margin: 0 0 20px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
 
 /****************************************
 COLORS
@@ -119,17 +206,3 @@ nav a.selected, nav a:hover {
 	color: #32673f;
 }
 
-h1 {
-	font-family: 'Muli', sans-serif;
-	margin: 15px 0;
-	font-size: 2em;
-	font-weight: normal;
-	line-height: 0.8em
-}
-
-h2 {
-	font-family: 'Muli', sans-serif;
-	font-size: 1em;
-	margin:  -5px 0 0;
-	font-weight: normal;
-}
